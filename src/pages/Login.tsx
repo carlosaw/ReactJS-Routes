@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 
-export const Home = () => {
+export const Login = () => {
   return (
     <div>
-      Página HOME - <Link to="/about">About</Link>
+      Página de LOGIN - <Link to="/">Home</Link>
     </div>
   );
 }
